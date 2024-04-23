@@ -189,6 +189,21 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	
 }
+
+.text_border{
+	background-color: #2c003546;
+
+	border: 3px solid #ffffffd3;
+	padding: 5px;
+}
+
+.grupo-imagenes{
+	background-color: #4444441c;
+
+	border: 2px solid #ffffff21;
+	padding: 30px;
+}
+
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
@@ -223,7 +238,8 @@ h1,h2,h3,h4,h5{
 }
 
 .today-special .column {
-	margin-bottom: 30px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	text-align: center;
 }
 
@@ -246,13 +262,14 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .main-footer{
-	background: #222;
+	background: #000000;
 	color: #fff;
-	padding: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	font-size: .8em;
+
+	border: 3px solid #ffffffd3;
+	padding: 10px;
 }
+
 .copy{
 	text-align: center;
 	margin: auto;

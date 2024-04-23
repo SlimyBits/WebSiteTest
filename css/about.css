@@ -24,6 +24,10 @@
 	text-align:justify;
 }
 
+.menu_link-select{
+    background-color: #f14e02;
+}
+
 @media screen and (min-width:480px){
 	.our-team__img{
 		width: 200px;
