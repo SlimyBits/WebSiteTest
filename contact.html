@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>SlimyBits Website</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
     <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
@@ -51,21 +52,29 @@
         <div class="container">
             <h2 class="main__title">¿Como y donde puedo contactarte?</h2>
             <p class="main_txt">
-                En caso que quieras que te ayude en algun proyecto o para algun trabajo.
+                En caso que quieras que te ayude en algun proyecto o para algun trabajo.<br>
+                Puedes usar mis redes sociales para contactarme o usar este asombroso sistema para poder contactarte, oh si.<br>
+                <br>
+                Deje que Bell se encargue de todo lo demas.
             </p>
         </div>
     </section>
 
     <main class="main">
         <section class="group main__about_description">
-            <div class="container container--flex">
-                <div class="column column--50">
-                    <img src="img/pizza1.jpg" alt="">
+            <div class="container container--flex grupo-imagenes">
+                <div class="column column--50--25">
+                    <img src="img/Bell.png" alt="">
                 </div>
-                <div class="column column--50">
-                    <h3 class="column__title">Lorem ipsum dolor sit amet.</h3>
-                    <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae natus necessitatibus animi nam rem eveniet dignissimos, accusantium eum veniam ipsa quaerat cumque voluptatibus ex, minima corporis fugit ipsam explicabo! Rem.Quae natus necessitatibus animi nam rem eveniet dignissimos, accusantium eum veniam ipsa quaerat cumque voluptatibus ex, minima corporis fugit ipsam explicabo! Rem</p>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label color-text">Ingrese Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="EmailSlimoso@bitoso.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label color-text">¿Por que quiere contactarme?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <p class="color-text main_txt">Las respuestas pueden tomar algo de tiempo como entre 10/Minutos hasta 2/Dias</p>
             </div>
         </section>
     </main>
