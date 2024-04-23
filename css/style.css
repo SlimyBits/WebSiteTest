@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -37,10 +38,10 @@ h1,h2,h3,h4,h5{
     width: 100%;
 }
 .logo{
-    font-size: 1.9em;
+    font-size: 10.9em;
     color: #ffffff;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Jersey 25', bold;
         
 }
 .main-header__contactInfo__phone{
@@ -200,7 +201,7 @@ h1,h2,h3,h4,h5{
 }
 
 .grupo-imagenes{
-	background-color: #4444441c;
+	background-color: #24062b42;
 
 	border: 2px solid #ffffff21;
 	padding: 30px;
@@ -209,7 +210,7 @@ h1,h2,h3,h4,h5{
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
-	font-family: 'Sacramento',cursive;
+	font-family: 'Jersey 25',cursive;
 	
 }
 .column__title{
@@ -231,7 +232,7 @@ h1,h2,h3,h4,h5{
 	
 }
 .group__title{
-	/*font-family:'Sacramento',cursive;*/
+	font-family:'Jersey 25',bold;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
